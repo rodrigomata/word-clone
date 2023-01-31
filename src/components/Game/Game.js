@@ -16,7 +16,7 @@ function Game() {
 
   return (
     <>
-      <ItemList items={items} />
+      <ItemList items={items} answer={answer} />
       <AddItem items={items} setItem={setItem} />
     </>
   );
